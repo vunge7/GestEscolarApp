@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="GestEscolarAppPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>entity.util.Turno</class>
+    <class>entity.util.ConfirmacaoMatricula</class>
+    <class>entity.util.Profissao</class>
+    <class>entity.util.Sexo</class>
+    <class>entity.util.TipoNota</class>
+    <class>entity.util.Nota</class>
+    <class>entity.util.Provincia</class>
+    <class>entity.util.AnoLectivo</class>
+    <class>entity.util.Mes</class>
+    <class>entity.util.Municipio</class>
+    <class>entity.util.PrecoConfirmacao</class>
+    <class>entity.util.Turma</class>
+    <class>entity.util.ItemTurmaProfessorDisciplina</class>
+    <class>entity.util.ReciboPropina</class>
+    <class>entity.util.Classe</class>
+    <class>entity.util.TipoConfirmacao</class>
+    <class>entity.util.Curso</class>
+    <class>entity.util.Propina</class>
+    <class>entity.util.Sala</class>
+    <class>entity.util.Trimestre</class>
+    <class>entity.util.Usuario</class>
+    <class>entity.util.Encarregado</class>
+    <class>entity.util.Disciplina</class>
+    <class>entity.util.Pais</class>
+    <class>entity.util.PrecoPropina</class>
+    <class>entity.util.Professor</class>
+    <class>entity.util.Estudante</class>
+    <class>entity.Usuario</class>
+    <class>entity.Pais</class>
+    <class>entity.Disciplina</class>
+    <class>entity.ItemTurmaProfessorDisciplina</class>
+    <class>entity.TipoConfirmacao</class>
+    <class>entity.Professor</class>
+    <class>entity.Turma</class>
+    <class>entity.Curso</class>
+    <class>entity.Profissao</class>
+    <class>entity.AnoLectivo</class>
+    <class>entity.Estudante</class>
+    <class>entity.ReciboPropina</class>
+    <class>entity.Municipio</class>
+    <class>entity.Sexo</class>
+    <class>entity.Mes</class>
+    <class>entity.Classe</class>
+    <class>entity.Encarregado</class>
+    <class>entity.Provincia</class>
+    <class>entity.ConfirmacaoMatricula</class>
+    <class>entity.TipoNota</class>
+    <class>entity.Nota</class>
+    <class>entity.Trimestre</class>
+    <class>entity.PrecoPropina</class>
+    <class>entity.Turno</class>
+    <class>entity.Propina</class>
+    <class>entity.PrecoConfirmacao</class>
+    <class>entity.Sala</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/gestescolardb?serverTimezone=UTC"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="DoV90x?#"/>
+    </properties>
+  </persistence-unit>
+</persistence>
