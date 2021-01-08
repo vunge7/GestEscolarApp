@@ -11,6 +11,7 @@ import javax.swing.*;
 
 public class BDConexao {
 
+    //teste
     private Connection connection;
     private Statement statement;
     private static final String ip_address = "localhost";
